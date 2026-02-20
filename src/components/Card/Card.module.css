@@ -1,0 +1,31 @@
+.card_style {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    border-radius: 1.2rem;
+    padding: 1rem;
+
+}
+
+.description_input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    background-color: white;
+    width: 50%;
+    color: black
+}
+
+button {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.card_style>h3 {
+    color: rgb(28, 62, 4);
+    font-size: 1.2rem;
+}
